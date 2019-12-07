@@ -5,7 +5,7 @@ using UnityEngine;
 //Fans push the player away from them while they are within their influence
 public class Fan : MonoBehaviour {
 
-    public float force = 10f;
+    public float force = 20f;
     private bool playerIsColliding = false;
     private Rigidbody rb;
 
@@ -15,7 +15,7 @@ public class Fan : MonoBehaviour {
         rb = player.GetComponent<Rigidbody>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (playerIsColliding)
         {

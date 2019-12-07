@@ -79,11 +79,11 @@ public class Rotator : MonoBehaviour {
         {
             //Rotating the level instantly without any accompanying visuals can be... disorienting, so I added this to do it over the course of one second
             Time.timeScale = 0;
-            Vector3 newRotation = rotation / 60;
-            for (int i = 1; i <= 60; i++)
+            Vector3 newRotation = rotation / 30;
+            for (int i = 1; i <= 30; i++)
             {
                 levelPivot.transform.Rotate(newRotation);
-                yield return null;
+                yield return new WaitForSecondsRealtime(1/60f);
             }
             Time.timeScale = 1;
         }
