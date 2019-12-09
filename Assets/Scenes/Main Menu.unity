@@ -3118,7 +3118,7 @@ GameObject:
   - component: {fileID: 803918143}
   m_Layer: 0
   m_Name: Music Player
-  m_TagString: Untagged
+  m_TagString: Music Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6665,6 +6665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114352057324383566, guid: a8601105e1d20d942b4fb79de2a2a591, type: 3}
+    - {fileID: 1679802526205914278, guid: a8601105e1d20d942b4fb79de2a2a591, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a8601105e1d20d942b4fb79de2a2a591, type: 3}
 --- !u!1 &1573057901
 GameObject:

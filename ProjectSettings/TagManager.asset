@@ -11,6 +11,7 @@ TagManager:
   - Level Bounds
   - Gem
   - Level
+  - Music Player
   layers:
   - Default
   - TransparentFX
